@@ -11,7 +11,7 @@ public class Hoteles {
         for(int i = 0; i<cantidadHoteles;i ++){
             
             hoteles[i][0] = (int)(Math.random() * 14) + 3; //posicion 1 es pisos
-            hoteles[i][1] = (int)(Math.random() * 24) + 0; //posicion 2 es horas
+            hoteles[i][1] = (int)(Math.random() * 24) + 0; //posicion 2 es horas ( las horas totales son la suma de horas por cada piso)
             hoteles[i][2] = (int)(Math.random() * 3) + 1; //posicion 3 es tipo luces
 
             if(hoteles[i][2] == 1){
